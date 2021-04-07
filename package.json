@@ -1,0 +1,50 @@
+{
+  "name": "@eyhn/split-view",
+  "version": "1.0.0",
+  "description": "A simple split view for react.",
+  "repository": "https://github.com/EYHN/split-view",
+  "authors": [
+    {
+      "email": "cneyhn@gmail.com",
+      "name": "eyhn"
+    }
+  ],
+  "source": "src/split-view.tsx",
+  "main": "dist/split-view.js",
+  "module": "dist/split-view.module.js",
+  "example": "dist/example.html",
+  "types": "dist/split-view.d.ts",
+  "targets": {
+    "example": {
+      "context": "browser",
+      "source": "src/example.html"
+    },
+    "main": {},
+    "module": {},
+    "types": {}
+  },
+  "scripts": {
+    "build": "rimraf dist .parcel-cache && parcel build .",
+    "dev": "parcel serve ."
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.0.0-beta.2",
+    "@parcel/transformer-typescript-tsc": "2.0.0-beta.2",
+    "@parcel/transformer-typescript-types": "2.0.0-beta.2",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "microbundle": "^0.13.0",
+    "parcel": "2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {}
+}

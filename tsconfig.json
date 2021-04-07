@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+        "./node_modules/@types"
+    ],
+    "paths": {
+    },
+    "types": [
+      "react"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
